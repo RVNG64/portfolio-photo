@@ -1,0 +1,32 @@
+.header {
+  background-image: url('https://res.cloudinary.com/dvzsvgucq/image/upload/v1683319344/DSC02904_arkwah_cnkd8w.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.header-content h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.header-content button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ff9f00;
+  color: white;
+  cursor: pointer;
+}
