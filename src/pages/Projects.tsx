@@ -1,4 +1,5 @@
 import React from 'react';
+import PhotoCarousel from '../components/PhotoCarousel';
 
 const Projects = () => {
   return (
@@ -7,7 +8,7 @@ const Projects = () => {
       <p>
         Voici une sélection de mes projets photographiques les plus récents et les plus marquants. Cliquez sur un projet pour en savoir plus et pour voir la galerie complète.
       </p>
-      {/* Ajouter ici des cartes de projet ou des images avec des liens vers les projets individuels. */}
+      <PhotoCarousel />
     </div>
   );
 };
