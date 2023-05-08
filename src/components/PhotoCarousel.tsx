@@ -37,18 +37,18 @@ const PhotoCarousel = () => {
     const target = new THREE.Vector3(0, yOffset, 0);
     const direction = target.clone().sub(panel.position).normalize();
     panel.quaternion.setFromUnitVectors(new THREE.Vector3(0, 0, 1), direction);
-    };
+  };
 
-    const onDocumentMouseMove = (event: MouseEvent) => {
-      updateRotationSpeed(event.clientX);
-    };
+  const onDocumentMouseMove = (event: MouseEvent) => {
+    updateRotationSpeed(event.clientX);
+  };
 
-    const updateRotationSpeed = (clientX: number) => {
-      const centerX = window.innerWidth / 2;
-      const distanceFromCenter = Math.abs(centerX - clientX);
-      const speed = 0.01 + (distanceFromCenter / centerX) * 0.01;
-      rotationSpeedRef.current = speed;
-    };
+  const updateRotationSpeed = (clientX: number) => {
+    const centerX = window.innerWidth / 2;
+    const distanceFromCenter = Math.abs(centerX - clientX);
+    const speed = 0.01 + (distanceFromCenter / centerX) * 0.01;
+    rotationSpeedRef.current = speed;
+  };
 
   useEffect(() => {
     if (containerRef.current) {
@@ -75,7 +75,6 @@ const PhotoCarousel = () => {
         "https://res.cloudinary.com/dvzsvgucq/image/upload/v1680025414/DSC01379-2_qpdmwp.jpg",
         "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877943/lille-1_uunkfn.webp",
         "https://res.cloudinary.com/dvzsvgucq/image/upload/v1680283551/DSC01138_pttpb6.jpg",
-
       ];
 
       const distance = 3;
