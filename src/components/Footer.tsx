@@ -1,10 +1,25 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-4 px-6">
-      <div className="container mx-auto">
-        <p className="text-center text-sm">&copy; 2023 - Hervé Nguetsop. Tous droits réservés.</p>
+    <footer className="footer">
+      <div className="footer__contact">
+        <a href="mailto:contact@herveng.com" className="link footer__contact-item">
+          contact@herveng.com
+        </a>
+        <a href="tel:+33665511993" className="link footer__contact-item">
+          +33 6 65 51 19 93
+        </a>
+        <a href="https://www.instagram.com/hervenguetsop/" target="_blank" rel="noopener noreferrer" className="link footer__contact-item">
+          Instagram
+        </a>
+      </div>
+      <div className="footer__about">
+        <div className="footer__bio">
+          <span>&copy; 2023 - Hervé Nguetsop. Tous droits réservés.</span>
+          <span className='footer__developer'>Site créé par <a href="https://herveng.com" target="_blank" rel="noopener noreferrer" className="link">herveng.com</a></span>
+        </div>
       </div>
     </footer>
   );
