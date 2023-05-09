@@ -1,0 +1,46 @@
+.footer {
+  background-color: white;
+  color: black;
+  padding: 40px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: 'Sora', sans-serif;
+}
+
+.footer__contact {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.footer__contact-item {
+  transition: all 0.3s ease;
+}
+
+.footer__contact-item:hover {
+  color: blue;
+}
+
+.footer__about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__bio {
+  flex-grow: 1;
+  line-height: 1.6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  color: blue;
+}
