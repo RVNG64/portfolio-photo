@@ -1,0 +1,21 @@
+.projects {
+  padding: 2rem 0;
+  margin: 0 auto;
+  background-color: #000000;
+}
+
+.projects h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.projects p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #555;
+  margin-bottom: 2rem;
+}
