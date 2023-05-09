@@ -1,0 +1,37 @@
+.bio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  height: 60vh;
+}
+
+.bio-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.bio-photo {
+  max-width: 250px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.bio-text-container {
+  max-width: 600px;
+  text-align: justify;
+}
+
+.bio-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.bio-text {
+  font-size: 1.2em;
+  line-height: 1.5;
+}

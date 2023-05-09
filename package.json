@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,12 +16,17 @@
     "@types/react-router-dom": "^5.3.3",
     "autoprefixer": "^10.4.14",
     "framer-motion": "^10.12.8",
+    "gsap": "^3.11.5",
     "postcss": "^8.4.23",
     "postcss-loader": "^7.3.0",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.3",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
+    "scrollmagic": "^2.0.8",
+    "scrollmagic-plugin-gsap": "^1.0.4",
+    "scrollreveal": "^4.0.9",
     "swiper": "^9.3.0",
     "tailwindcss": "^3.3.2",
     "three": "^0.152.2",
@@ -51,6 +58,7 @@
     ]
   },
   "devDependencies": {
+    "@types/scrollmagic": "^2.0.3",
     "@types/three": "^0.152.0"
   }
 }
