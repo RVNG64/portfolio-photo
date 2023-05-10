@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import SwiperCore, { Navigation, Pagination } from 'swiper';
+import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './PhotoMosaic.css';
 
 // Installation des modules Swiper
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Autoplay, Navigation, Pagination]);
 
 const PhotoMosaic: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
@@ -53,7 +53,7 @@ const PhotoMosaic: React.FC = () => {
       )}
 
 
-      <Swiper spaceBetween={10} slidesPerView={5} navigation pagination={{ clickable: true }} className="photo-mosaic__swiper">
+      <Swiper spaceBetween={10} slidesPerView={5} navigation pagination={{ clickable: true }} speed={2000} autoplay={{ delay: 5000, disableOnInteraction: false }} className="photo-mosaic__swiper">
         {images.map((image, index) => (
           <SwiperSlide key={index} onClick={() => imageClick(index)}>
             <img src={image} alt={`Image ${index}`} style={{ height: "100%", width: "100%", objectFit: "cover", aspectRatio: "auto" }}/>

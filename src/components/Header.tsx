@@ -9,7 +9,7 @@ SwiperCore.use([Autoplay, Navigation, Pagination, EffectCube]);
 const Header = () => {
   return (
     <div className="header">
-      <Swiper spaceBetween={50} slidesPerView={1} navigation pagination={{ clickable: true }} effect={'cube'} cubeEffect={{ shadow: true, slideShadows: true, shadowOffset: 20, shadowScale: 0.94}} speed={1000} autoplay={{ delay: 4000, disableOnInteraction: false }} >
+      <Swiper spaceBetween={50} slidesPerView={1} navigation pagination={{ clickable: true }} effect={'cube'} cubeEffect={{ shadow: true, slideShadows: true, shadowOffset: 20, shadowScale: 0.94}} speed={2000} autoplay={{ delay: 5000, disableOnInteraction: false }} >
         <SwiperSlide>
           <div className="slide" style={{backgroundImage: "url('https://res.cloudinary.com/dvzsvgucq/image/upload/v1683319344/DSC02904_arkwah_cnkd8w.webp')"}} />
         </SwiperSlide>
