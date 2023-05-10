@@ -1,8 +1,6 @@
 .header {
-  background-image: url('https://res.cloudinary.com/dvzsvgucq/image/upload/v1683319344/DSC02904_arkwah_cnkd8w.webp');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+  position: relative;
+  height: 80vh;
   width: 1400px;
   margin: 0 auto;
   display: flex;
@@ -11,8 +9,35 @@
   border-radius: 10px;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.swiper-slide .slide {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white !important;
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #f3b352 !important;
+}
+
 .header-content {
+  position: absolute;
   text-align: center;
+  z-index: 1;
 }
 
 .header-content h1 {
