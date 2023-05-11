@@ -5,6 +5,9 @@ import './Bio.css';
 const Bio = () => {
   return (
     <div className='bio-parent-container'>
+      <div className='bio-specialties'>
+        Evénements  •  Art  •  Théâtres  •  Sport  •  Mariage  •  Food  •  Tourisme  •  Entreprise
+      </div>
       <div className="bio-container">
         <div className="bio-content">
           <Fade direction="left" >
@@ -12,7 +15,6 @@ const Bio = () => {
               <h2 className="bio-title">Bonjour, je suis Hervé !</h2>
               <p className="bio-text">Créateur de startup et développeur web, je me suis formé à la photographie en autodidacte en 2021. Basé au Pays Basque mais mobile, j'aime capturer des moments uniques et raconter des histoires à travers mes photographies.</p><br />
               <p className="bio-text">Photographe pour la Scène Nationale depuis 2 saisons et durant divers événements sportifs notamment, j'aime faire ressortir l'émotion de chaque photo que je prends.</p><br />
-              <p className="bio-text">Spécialités: Evénements, Art, Théâtres, Sport, Mariage, Famille, Couple, Entreprise</p>
             </div>
           </Fade>
           <Fade direction="right" >
