@@ -1,0 +1,28 @@
+.my-masonry-grid {
+  display: flex;
+  margin-left: -30px;
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 30px;
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  margin-bottom: 2rem;
+}
+
+.carousel .slide img {
+  border-radius: 10px !important;
+}
+
+.carousel .slide .legend {
+  margin: 0 auto;
+  width: auto;
+  min-width: 300px;
+  left: auto;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
