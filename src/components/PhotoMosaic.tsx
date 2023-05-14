@@ -12,13 +12,13 @@ const PhotoMosaic: React.FC = () => {
   const images = [
     "https://res.cloudinary.com/dvzsvgucq/image/upload/v1683319344/DSC02904_arkwah_cnkd8w.webp",
     "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877944/singer_1__wiitrw.webp",
-    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877943/golf-1_kogg40.webp",
-    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1680025414/DSC01379-2_qpdmwp.jpg",
-    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877943/lille-1_uunkfn.webp",
-    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1680283551/DSC01138_pttpb6.jpg",
+    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083430/dsc06259-copier_xe0qfu.webp",
+    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083448/dsc00544-copier_nxgouj.webp",
+    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083448/dsc00166-copier_q0xnp1.webp",
+    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083429/dsc01133-copier_dcyvbu.webp",
     "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877945/regard-1_k595n9.webp",
     "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877944/tz-autour-du-v195169lo-1-compressed_zszysx.webp",
-    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1680249277/DSC03167_fslekc.jpg",
+    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083448/dsc06603-copier_hhp5pk.webp",
   ];
 
   const captions = [
