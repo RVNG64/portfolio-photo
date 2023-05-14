@@ -9,13 +9,16 @@ import './ImageGallery.css';
 const IMAGES = [
   {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1683319344/DSC02904_arkwah_cnkd8w.webp", legend: 'Légende 1'},
   {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877944/singer_1__wiitrw.webp", legend: 'Légende 2'},
-  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877943/golf-1_kogg40.webp", legend: 'Légende 3'},
+  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083429/DSC03881_Copier_aykeqj.webp", legend: 'Légende 3'},
   {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877943/lille-1_uunkfn.webp", legend: 'Légende 4'},
-  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1680283551/DSC01138_pttpb6.jpg", legend: 'Légende 5'},
+  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083426/DSC09205_Copier_rqbo7f.webp", legend: 'Légende 5'},
   {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877945/regard-1_k595n9.webp", legend: 'Légende 6'},
   {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877944/tz-autour-du-v195169lo-1-compressed_zszysx.webp", legend: 'Légende 7'},
-  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1680249277/DSC03167_fslekc.jpg", legend: 'Légende 8'},
-  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1680025414/DSC01379-2_qpdmwp.jpg", legend: 'Légende 9'},
+  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083448/dsc00544-copier_nxgouj.webp", legend: 'Légende 8'},
+  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083433/dsc05918-copier_jrcv7a.webp", legend: 'Légende 9'},
+  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083448/dsc00218-copier_doyr1f.webp", legend: 'Légende 10'},
+  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083449/dsc06986-copier_mn2jko.webp", legend: 'Légende 11'},
+  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083448/dsc00166-copier_q0xnp1.webp", legend: 'Légende 12'},
 ];
 
   const breakpointColumnsObj = {
