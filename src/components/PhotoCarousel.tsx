@@ -69,12 +69,13 @@ const PhotoCarousel = () => {
       scene.add(light);
 
       const projectImages = [
-        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1683319344/DSC02904_arkwah_cnkd8w.webp",
+        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083431/dsc09704-2-copier_l4d1cc.webp",
         "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877944/singer_1__wiitrw.webp",
-        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877943/golf-1_kogg40.webp",
-        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1680025414/DSC01379-2_qpdmwp.jpg",
-        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877943/lille-1_uunkfn.webp",
-        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1680283551/DSC01138_pttpb6.jpg",
+        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150872/dsc08521-copier_gbkgw4.webp",
+        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150872/dsc08643-copier_dfwtu8.webp",
+        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083448/dsc00545-copier_lik3lb.webp",
+        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150884/dsc08904-copier_pc36hq.webp",
+        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150881/dsc01437-copier_a3qlrq.webp",
       ];
 
       const distance = 3;

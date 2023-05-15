@@ -14,13 +14,13 @@ const Header = () => {
           <div className="slide" style={{backgroundImage: "url('https://res.cloudinary.com/dvzsvgucq/image/upload/v1683319344/DSC02904_arkwah_cnkd8w.webp')"}} />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="slide" style={{backgroundImage: "url('https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877944/singer_1__wiitrw.webp')"}} />
+          <div className="slide" style={{backgroundImage: "url('https://res.cloudinary.com/dvzsvgucq/image/upload/v1684155348/golf_1_lblzwg.jpg')"}} />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="slide" style={{backgroundImage: "url('https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877943/golf-1_kogg40.webp')"}} />
+          <div className="slide" style={{backgroundImage: "url('https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150872/dsc08494-copier_j25dlo.webp')"}} />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="slide" style={{backgroundImage: "url('https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877943/lille-1_uunkfn.webp')"}} />
+          <div className="slide" style={{backgroundImage: "url('https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083432/dsc06820-copier_ztdn8x.webp')"}} />
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide" style={{backgroundImage: "url('https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877945/regard-1_k595n9.webp')"}} />

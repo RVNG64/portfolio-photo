@@ -13,24 +13,24 @@ const PhotoMosaic: React.FC = () => {
     "https://res.cloudinary.com/dvzsvgucq/image/upload/v1683319344/DSC02904_arkwah_cnkd8w.webp",
     "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877944/singer_1__wiitrw.webp",
     "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083430/dsc06259-copier_xe0qfu.webp",
-    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083448/dsc00544-copier_nxgouj.webp",
+    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150884/ferrari_dckwjl.webp",
     "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083448/dsc00166-copier_q0xnp1.webp",
-    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083429/dsc01133-copier_dcyvbu.webp",
-    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877945/regard-1_k595n9.webp",
+    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083428/INSTAGRAM_Tryptique_JCPieri-201018-085223_Copier_jmrcyt.webp",
+    "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150872/dsc08645-copier_ifevje.webp",
     "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877944/tz-autour-du-v195169lo-1-compressed_zszysx.webp",
     "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083448/dsc06603-copier_hhp5pk.webp",
   ];
 
   const captions = [
     "Alaia - On Dream",
-    "Alaia",
-    "Open de Golf - AB Rugby Pro",
-    "Medhi",
-    "Légende 5",
-    "Légende 6",
-    "Légende 7",
-    "Légende 8",
-    "Légende 9",
+    "Alaia - On Dream",
+    "Scène Nationale",
+    "Open de Golf",
+    "Nomad - Sidi Larbi Cherkaoui",
+    "Nomad - Sidi Larbi Cherkaoui",
+    "Utopia - Lille 3000",
+    "",
+    "Claire Diterzi"
   ];
 
   const imageClick = (index: number) => {
