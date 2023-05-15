@@ -1,71 +1,66 @@
-.form-container {
+.contact-container {
+  position: relative;
+  height: auto;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  background: linear-gradient(-45deg, #ee7752, #e6c06e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  padding: 4em;
+  border-radius: 10px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.contact-container h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1em;
+}
+
+.contact-icons {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin: 4rem 0;
-  min-height: 100%;
+  gap: 2em;
 }
 
-.form-container h1 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-form {
+.icon-container {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
 }
 
-.form-group {
-  position: relative;
-  margin-bottom: 1.5rem;
+.icon-container:hover {
+  transform: scale(1.1);
 }
 
-label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
-  color: #777;
-}
-
-input, textarea {
-  width: 100%;
-  font-size: 1rem;
-  border: none;
-  border-bottom: 2px solid #777;
-  background-color: transparent;
-  outline: none;
-  transition: all 0.3s ease;
-}
-
-input:focus, textarea:focus {
-  border-bottom: 2px solid #3498db;
-}
-
-textarea {
-  padding: 0.5rem;
-  border: 2px solid #777;
-  transition: all 0.3s ease;
-}
-
-textarea:focus {
-  border: 2px solid #3498db;
-}
-
-.contact-button {
-  width: 100%;
-  padding: 0.5rem;
-  font-size: 1rem;
+.contact-icon {
+  font-size: 2em;
+  text-decoration: none;
   color: #fff;
-  border: none;
-  border-radius: 4px;
-  background-color: #3498db;
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
 
-.contact-button:hover {
-  background-color: #2980b9;
+.contact-info {
+  margin-top: 0.5em;
+  font-size: 1.2em;
 }
