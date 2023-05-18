@@ -53,7 +53,19 @@ const PhotoMosaic: React.FC = () => {
       )}
 
 
-      <Swiper spaceBetween={10} slidesPerView={5} navigation pagination={{ clickable: true }} speed={2000} autoplay={{ delay: 5000, disableOnInteraction: false }} className="photo-mosaic__swiper">
+      <Swiper spaceBetween={10} slidesPerView={5} navigation pagination={{ clickable: true }} speed={2000} autoplay={{ delay: 5000, disableOnInteraction: false }} className="photo-mosaic__swiper"
+      breakpoints={{
+        640: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        1024: {
+          slidesPerView: 5,
+        },
+      }}
+      >
         {images.map((image, index) => (
           <SwiperSlide key={index} onClick={() => imageClick(index)}>
             <img src={image} alt={`Image ${index}`} style={{ height: "100%", width: "100%", objectFit: "cover", aspectRatio: "auto" }}/>
