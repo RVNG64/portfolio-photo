@@ -5,6 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Masonry from 'react-masonry-css';
 import { Tilt } from 'react-tilt'
 import './ImageGallery.css';
+import { Fade } from 'react-awesome-reveal';
 
 const IMAGES = [
   {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1683319344/DSC02904_arkwah_cnkd8w.webp", legend: 'Alaia - On Dream'},
@@ -109,6 +110,11 @@ const ImageGallery = () => {
           </Carousel>
         </Modal>
       }
+      <Fade direction="up" className='mosaic-button-container'>
+        <button className='mosaic-button'>
+          <a href="/contact">Contact</a>
+        </button>
+      </Fade>
     </div>
   );
 };

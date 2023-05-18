@@ -116,3 +116,14 @@
   font-size: 4rem;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .photo-mosaic__swiper .swiper-slide {
+    height: 30vh;
+  }
+
+  .photo-mosaic__lightbox img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+}
