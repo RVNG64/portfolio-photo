@@ -6,7 +6,7 @@ const Bio = () => {
   return (
     <div className='bio-parent-container'>
       <div className='bio-specialties'>
-        Evénements  •  Art  •  Théâtres  •  Sport  •  Mariage  •  Food  •  Tourisme  •  Entreprise
+        Evénements  •  Art  •  Sport  •  Mariage  •  Entreprise
       </div>
       <div className="bio-container">
         <div className="bio-content">

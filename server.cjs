@@ -5,24 +5,9 @@ var cors = require("cors");
 var bodyParser = require("body-parser");
 var nodemailer = require("nodemailer");
 var dotenv = require("dotenv");
-var mongoose = require("mongoose");
 var path = require('path'); // Ajout pour servir les fichiers statiques
 dotenv.config();
 
-// Connect to MongoDB
-mongoose.connect(process.env.DB_CONNECTION_STRING || '', {
-    useUnifiedTopology: true,
-});
-
-// Define Mongoose schema for contact messages
-var contactSchema = new mongoose.Schema({
-    name: String,
-    email: String,
-    subject: String,
-    message: String
-});
-
-var Contact = mongoose.model('Contact', contactSchema);
 
 var app = express();
 

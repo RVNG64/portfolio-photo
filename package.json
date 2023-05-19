@@ -57,7 +57,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node server.cjs",
+    "start": "react-scripts start",
     "server": "node server.cjs",
     "build": "react-scripts build",
     "test": "react-scripts test",
