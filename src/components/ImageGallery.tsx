@@ -39,6 +39,9 @@ const IMAGES = [
   {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083433/dsc05953-copier_cisbxn.webp", legend: ''},
   {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150884/dsc01094-copier_qh7mkt.webp", legend:''},
   {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150884/ferrari_dckwjl.webp", legend: ''},
+  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684683522/DSC08658_Copier_2_vjn8af.jpg", legend: ''},
+  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684683652/DSC03526_Copier_rtmrwd.jpg", legend: ''},
+  {src: "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684683653/DSC02955_Copier_abxcco.jpg", legend: ''},
 ];
 
   const breakpointColumnsObj = {
