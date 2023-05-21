@@ -57,11 +57,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.cjs",
     "server": "node server.cjs",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "clean": "rm -rf ./src/**/*.js ./src/**/*.js.map",
     "heroku-postbuild": "react-scripts build"
   },
   "eslintConfig": {

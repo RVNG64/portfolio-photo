@@ -71,11 +71,13 @@ const PhotoCarousel = () => {
       const projectImages = [
         "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083431/dsc09704-2-copier_l4d1cc.webp",
         "https://res.cloudinary.com/dvzsvgucq/image/upload/v1682877944/singer_1__wiitrw.webp",
+        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684683652/DSC03223_Copier_dywrsl.jpg",
         "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150872/dsc08521-copier_gbkgw4.webp",
-        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150872/dsc08643-copier_dfwtu8.webp",
+        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684683525/DSC08643_Copier_2_xbguxx.jpg",
         "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684083448/dsc00545-copier_lik3lb.webp",
         "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150884/dsc08904-copier_pc36hq.webp",
         "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684150881/dsc01437-copier_a3qlrq.webp",
+        "https://res.cloudinary.com/dvzsvgucq/image/upload/v1684683652/DSC03526_Copier_rtmrwd.jpg",
       ];
 
       const distance = 3;
