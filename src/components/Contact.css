@@ -64,3 +64,27 @@
   margin-top: 0.5em;
   font-size: 1.2em;
 }
+
+@media (max-width: 769px) {
+  .contact-container {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .contact-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .contact-container .contact-icons .icon-container {
+    font-size: 1em;
+  }
+
+  .contact-container .contact-icons .contact-info {
+    font-size: 1em;
+  }
+
+  .contact-container .contact-icons .contact-icon {
+    font-size: 1em;
+  }
+}

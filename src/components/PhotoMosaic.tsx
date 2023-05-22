@@ -55,13 +55,16 @@ const PhotoMosaic: React.FC = () => {
 
       <Swiper spaceBetween={10} slidesPerView={5} navigation pagination={{ clickable: true }} speed={2000} autoplay={{ delay: 5000, disableOnInteraction: false }} className="photo-mosaic__swiper"
       breakpoints={{
+        380: {
+          slidesPerView: 1,
+        },
         640: {
           slidesPerView: 1,
         },
-        768: {
+        769: {
           slidesPerView: 3,
         },
-        1024: {
+        1025: {
           slidesPerView: 5,
         },
       }}
