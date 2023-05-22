@@ -24,6 +24,8 @@
 .navbar-menu {
   display: flex;
   gap: 2rem;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(0);
 }
 
 .navbar-item {
@@ -51,4 +53,50 @@
 .navbar-item:hover {
   color: #000000;
   transform: scale(1.1);
+}
+
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.burger-menu.open {
+  z-index: 9999;
+}
+
+.burger-menu div {
+  width: 2rem;
+  height: 0.25rem;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: white;
+    padding: 1rem 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+    z-index: 999;
+  }
+
+  .navbar-menu.open {
+    transform: translateX(0);
+  }
+
+  .burger-menu {
+    display: flex;
+  }
 }

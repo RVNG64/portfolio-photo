@@ -44,3 +44,26 @@
 .link:hover {
   color: blue;
 }
+
+.footer__links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__contact {
+    justify-content: space-between;
+  }
+  .footer__about {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__bio {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    text-align: initial;
+    font-size: 0.7rem;
+  }
+}
